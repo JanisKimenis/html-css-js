@@ -1,0 +1,11 @@
+head {
+  text-align: center;
+}
+body {
+  text-align: center;
+  background-color: rgb(119, 77, 66);
+}
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
