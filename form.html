@@ -3,27 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Form</title>
   </head>
   <body>
+    <h1>Fill out this form:</h1>
+    <br />
     <form>
+      <br />
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" /><br />
       <label for="gender">Gender:</label>
-      <select name="gender" id="gender">
-        <option value="male">Male</option>
-        <option value="female">Female</option>
-        <option value="notSelected">Don't want to specify</option></select
-      ><br />
+      <label for="male">Male:</label>
+      <input type="radio" id="male" name="gender" />
+      <label for="female">Female:</label>
+      <input type="radio" id="female" name="gender" /><br />
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" /><br />
-      <label for="level">Level:</label>
-      <input type="number" id="level" name="level" /><br />
       <label for="review">Review:</label>
       <textarea id="review" name="review"></textarea><br />
       <label for="date">Date:</label>
       <input type="date" id="date" name="date" /><br />
+      <label for="level">Level:</label>
+      <select name="level" id="level">
+        <option value="first">1</option>
+        <option value="second">2</option>
+        <option value="third">3</option>
+      </select>
+      <br />
+      <label for="wantEmail">Want emails?</label>
+      <input type="checkbox" id="wantEmail" name="wantEmail" /><br />
       <button type="submit">Submit</button>
+      <br />
+      <br />
     </form>
   </body>
 </html>
