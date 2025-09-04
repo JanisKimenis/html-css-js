@@ -11,6 +11,8 @@ body {
 img {
   margin-left: auto;
   margin-right: auto;
+  margin: auto;
+  width: 75%;
 }
 form {
   margin: auto;
@@ -23,4 +25,15 @@ h1 {
   border-style: solid;
   border: black;
   border-width: medium;
+}
+.index {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+.specialBold {
+  font-weight: bold;
+}
+#theHeading {
+  color: red;
 }
